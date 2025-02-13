@@ -10,9 +10,9 @@ $siswa = [
 
 
 
-echo "<h1>Daftar Nilai Siswa</h1><br>";
+echo "<center><h1>Daftar Nilai Siswa</h1><br></center>";
 
-echo '<table border="1 cellpadding = "5" cellspacing = "0">';
+echo '<center><table border="1 cellpadding = "5" cellspacing = "0"></center>';
 echo '<tr><th>Nama</th><th>Nilai</th><th>Status</th>';
 
 foreach ($siswa as $s) {
@@ -35,5 +35,7 @@ echo "</tr>";
 
 
 }
+
+// Developer note: Guy next to me is a total idiot... well the left side.
 
 echo '</table>';
