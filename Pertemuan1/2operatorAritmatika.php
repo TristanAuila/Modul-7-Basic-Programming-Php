@@ -3,7 +3,7 @@
 echo "OPERATOR ARITMATIKA <br>";
 echo "<hr>";
 
-$bill1 = 60; //int
+$bill1 = 60; //int muj
 $bill2 = 4; 
 
 $hasil_penjumblahan= $bill1 + $bill2;
